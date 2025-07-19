@@ -1,6 +1,6 @@
 {
     "name": "general-bot",
-    "description": "A free starter pack for using prefix and slash commands developed in Discord.js v14 by Nothinger Developers.",
+    "description": "We're combining the systems found in many advanced Discord bots into a single, general bot project. It's open source, so it's good to use.",
     "version": "1.0.0",
     "main": "index.js",
     "scripts": {
