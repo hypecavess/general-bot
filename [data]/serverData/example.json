@@ -1,0 +1,17 @@
+{
+    "guildId": "example",
+    "systems": {
+        "linkBlock": {
+            "enabled": false,
+            "customPatterns": []
+        },
+        "swearBlock": {
+            "enabled": false,
+            "customPatterns": []
+        },
+        "adsBlock": {
+            "enabled": false,
+            "customPatterns": []
+        }
+    }
+} 

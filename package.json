@@ -1,0 +1,14 @@
+{
+    "name": "general-bot",
+    "description": "A free starter pack for using prefix and slash commands developed in Discord.js v14 by Nothinger Developers.",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "start": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "HypeCaves, NFD, Raven, Nothinger",
+    "license": "NSL-1.0",
+    "dependencies": {
+      "discord.js": "^14.14.1"
+    }
+}
