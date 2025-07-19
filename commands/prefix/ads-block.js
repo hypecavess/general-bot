@@ -20,7 +20,6 @@ module.exports = {
         const subCommand = args[0]?.toLowerCase();
         const pattern = args.slice(1).join(' ');
 
-        // Create delete button
         const row = new ActionRowBuilder()
             .addComponents(
                 new ButtonBuilder()
