@@ -180,10 +180,10 @@ module.exports = {
                     .setTitle('Link Blocking Commands')
                     .setDescription('Here are the available commands:')
                     .addFields(
-                        { name: 'Toggle System', value: '`link-block toggle` - Enable/disable the system' },
-                        { name: 'Add Pattern', value: '`link-block add <pattern>` - Add a new pattern' },
-                        { name: 'Remove Pattern', value: '`link-block remove <pattern>` - Remove a pattern' },
-                        { name: 'List Patterns', value: '`link-block list` - List all patterns' }
+                        { name: 'link-block toggle', value: '-# Enable/disable the system' },
+                        { name: 'link-block add <pattern>', value: '-# Add a new pattern' },
+                        { name: 'link-block remove <pattern>', value: '-# Remove a pattern' },
+                        { name: 'link-block list', value: '-# List all patterns' }
                     )
                     .setFooter({ text: message.author.tag, iconURL: message.author.displayAvatarURL() });
 

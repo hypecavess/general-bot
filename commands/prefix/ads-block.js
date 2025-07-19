@@ -180,10 +180,10 @@ module.exports = {
                     .setTitle('Advertisement Blocking Commands')
                     .setDescription('Here are the available commands:')
                     .addFields(
-                        { name: 'Toggle System', value: '`ads-block toggle` - Enable/disable the system' },
-                        { name: 'Add Pattern', value: '`ads-block add <pattern>` - Add a new pattern' },
-                        { name: 'Remove Pattern', value: '`ads-block remove <pattern>` - Remove a pattern' },
-                        { name: 'List Patterns', value: '`ads-block list` - List all patterns' }
+                        { name: 'ads-block toggle', value: '-# Enable/disable the system' },
+                        { name: 'ads-block add <pattern>', value: '-# Add a new pattern' },
+                        { name: 'ads-block remove <pattern>', value: '-# Remove a pattern' },
+                        { name: 'ads-block list', value: '-# List all patterns' }
                     )
                     .setFooter({ text: message.author.tag, iconURL: message.author.displayAvatarURL() });
 

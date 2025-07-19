@@ -20,7 +20,6 @@ module.exports = {
         const subCommand = args[0]?.toLowerCase();
         const pattern = args.slice(1).join(' ');
 
-        // Create delete button
         const row = new ActionRowBuilder()
             .addComponents(
                 new ButtonBuilder()
@@ -181,10 +180,10 @@ module.exports = {
                     .setTitle('Swear Word Blocking Commands')
                     .setDescription('Here are the available commands:')
                     .addFields(
-                        { name: 'Toggle System', value: '`swear-block toggle` - Enable/disable the system' },
-                        { name: 'Add Pattern', value: '`swear-block add <pattern>` - Add a new pattern' },
-                        { name: 'Remove Pattern', value: '`swear-block remove <pattern>` - Remove a pattern' },
-                        { name: 'List Patterns', value: '`swear-block list` - List all patterns' }
+                        { name: 'swear-block toggle', value: '-# Enable/disable the system' },
+                        { name: 'swear-block add <pattern>', value: '-# Add a new pattern' },
+                        { name: 'swear-block remove <pattern>', value: '-# Remove a pattern' },
+                        { name: 'swear-block list', value: '-# List all patterns' }
                     )
                     .setFooter({ text: message.author.tag, iconURL: message.author.displayAvatarURL() });
 
