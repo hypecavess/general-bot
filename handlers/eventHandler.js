@@ -24,11 +24,9 @@ async function loadEvents(client) {
                     } else {
                         client.on(event.name, (...args) => event.execute(...args));
                     }
-                } else {
                 }
             }
         }
-
     } catch (error) {
         console.error('Error loading events:', error);
     }

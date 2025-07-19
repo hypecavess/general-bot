@@ -7,9 +7,13 @@ const { loadSlashCommands } = require('./handlers/slashCommandHandler');
 const client = new Client({
     intents: [
         GatewayIntentBits.Guilds,
+        GatewayIntentBits.GuildMembers,
+        GatewayIntentBits.GuildBans,
+        GatewayIntentBits.GuildEmojisAndStickers,
         GatewayIntentBits.GuildMessages,
         GatewayIntentBits.MessageContent,
-        GatewayIntentBits.GuildMembers
+        GatewayIntentBits.GuildMessageReactions,
+        GatewayIntentBits.GuildModeration
     ]
 });
 
